@@ -1,4 +1,5 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import chairmanImg from "@/assets/chairman.jpg";
 import ceoImg from "@/assets/ceo.jpg";
 import vpImg from "@/assets/vp.jpg";
