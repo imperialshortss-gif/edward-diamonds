@@ -13,7 +13,14 @@ export default function Leadership() {
   ];
 
   return (
-    <Layout>
+    <>
+  <SEO
+    title="Andrew Conwell | Chairman & Owner of Edward Diamonds"
+    description="Discover Andrew Conwell, Chairman and Owner of Edward Diamonds, and the vision behind the company's legacy in exceptional diamonds, craftsmanship, and global operations."
+  />
+
+  <Layout>
+  
       <section className="pt-40 pb-20 bg-[#0a0a0a]">
         <div className="container mx-auto px-6 max-w-4xl text-center">
           <h1 className="font-serif text-5xl md:text-6xl text-white mb-6">Leadership</h1>
@@ -71,6 +78,7 @@ export default function Leadership() {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+ </Layout>
+</>
+);
 }
