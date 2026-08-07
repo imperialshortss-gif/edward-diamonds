@@ -127,8 +127,13 @@ export default function Home() {
             </div>
             <div className="flex flex-col">
               <span className="text-primary uppercase tracking-[0.3em] text-sm mb-4">Leadership & Vision</span>
-              <h2 className="font-serif text-5xl mb-2 text-white">Andrew Conwell</h2>
-              <h3 className="font-sans text-sm tracking-[0.1em] text-white/50 mb-10 pb-10 border-b border-primary/20">Chairman & Owner, Edward Diamonds</h3>
+              <h1 className="font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] mb-4 italic tracking-tight text-white drop-shadow-2xl">
+  Edward Diamonds
+</h1>
+
+<h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6 italic tracking-tight text-white/90 drop-shadow-2xl">
+  Unearthing Nature's Rarest Treasures
+</h2>
               
               <div className="space-y-6 text-white/70 font-light leading-relaxed">
                 <p>
