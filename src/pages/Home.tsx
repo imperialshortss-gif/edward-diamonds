@@ -50,8 +50,8 @@ export default function Home() {
             transition={{ duration: 1, delay: 0.2 }}
           >
             <h1 className="font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] mb-6 italic tracking-tight text-white drop-shadow-2xl">
-              Unearthing Nature's Rarest Treasures
-            </h1>
+  Edward Diamonds
+</h1>
           </motion.div>
           
           <motion.p 
@@ -60,7 +60,7 @@ export default function Home() {
             transition={{ duration: 1, delay: 0.5 }}
             className="font-sans text-lg md:text-xl text-white/80 max-w-3xl mx-auto mb-12 font-light tracking-wide leading-relaxed"
           >
-            A global diamond company transforming exceptional stones from the depths of the earth into timeless symbols of beauty and legacy.
+           A global diamond company transforming exceptional stones from the depths of the earth into timeless symbols of beauty and legacy.
           </motion.p>
           
           <motion.div 
