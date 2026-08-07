@@ -49,7 +49,10 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            <h1 className="font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] mb-4 italic tracking-tight text-white drop-shadow-2xl">
+            <h1
+  className="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.1] mb-4 tracking-[0.08em] font-medium text-white drop-shadow-2xl"
+  style={{ WebkitTextStroke: "1px rgba(163, 163, 117, 0.65)" }}
+>
   Edward Diamonds
 </h1>
 
