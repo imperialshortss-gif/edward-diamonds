@@ -44,7 +44,15 @@ export function Footer() {
               United States
             </p>
             <p className="text-white/60 text-sm tracking-wide mt-2">
-              <span className="text-white/40">T.</span> +1 (212) 555-0187<br />
+              <a 
+  href="https://wa.me/12125550187"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition-colors"
+>
+  <span className="text-white/40">WhatsApp:</span> +1 (515) 422-2570
+</a>
+<br />
               <span className="text-white/40">E.</span> inquiries@edwarddiamonds.com
             </p>
           </div>
