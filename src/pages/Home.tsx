@@ -128,7 +128,7 @@ export default function Home() {
             <div className="flex flex-col">
               <span className="text-primary uppercase tracking-[0.3em] text-sm mb-4">Leadership & Vision</span>
               <h1 className="font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] mb-4 italic tracking-tight text-white drop-shadow-2xl">
-  Edward Diamonds
+  Andrew Conwell
 </h1>
 
 <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6 italic tracking-tight text-white/90 drop-shadow-2xl">
