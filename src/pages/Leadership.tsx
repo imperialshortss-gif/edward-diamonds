@@ -29,7 +29,7 @@ export default function Leadership() {
             <div>
               <span className="text-primary uppercase tracking-[0.2em] text-sm mb-4 block">Founder</span>
               <h2 className="font-serif text-4xl text-white mb-2">Andrew Conwell</h2>
-              <h3 className="font-sans text-sm tracking-[0.1em] text-white/50 mb-8 pb-8 border-b border-primary/20">Chairman & Owner</h3>
+              <h3 className="font-sans text-sm tracking-[0.1em] text-white/50 mb-8 pb-8 border-b border-primary/20">Chairman & Owner, Edward Diamonds</h3>
               <p className="text-white/70 font-light leading-relaxed">
                 Andrew Conwell established Edward Diamonds with a simple philosophy: never compromise. Under his guidance, the company has grown from a specialized Antwerp trading desk into a global powerhouse, all without taking outside capital that might dilute the brand's uncompromising standards.
               </p>
