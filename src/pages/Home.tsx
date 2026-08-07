@@ -50,7 +50,7 @@ export default function Home() {
             transition={{ duration: 1, delay: 0.2 }}
           >
             <h1
-  className="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.1] mb-4 tracking-[0.08em] font-medium text-white drop-shadow-2xl"
+  className="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.1] mb-4 font-medium text-white drop-shadow-2xl"
   style={{ WebkitTextStroke: "1px rgba(163, 163, 117, 0.65)" }}
 >
   Edward Diamonds
