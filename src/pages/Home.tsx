@@ -49,9 +49,13 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            <h1 className="font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] mb-6 italic tracking-tight text-white drop-shadow-2xl">
+            <h1 className="font-serif text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] mb-4 italic tracking-tight text-white drop-shadow-2xl">
   Edward Diamonds
 </h1>
+
+<h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6 italic tracking-tight text-white/90 drop-shadow-2xl">
+  Unearthing Nature's Rarest Treasures
+</h2>
           </motion.div>
           
           <motion.p 
@@ -138,9 +142,6 @@ export default function Home() {
     Chairman & Owner, Edward Diamonds
   </h3>
 
-<h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6 italic tracking-tight text-white/90 drop-shadow-2xl">
-  Unearthing Nature's Rarest Treasures
-</h2>
               
               <div className="space-y-6 text-white/70 font-light leading-relaxed">
                 <p>
