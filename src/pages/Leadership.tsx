@@ -33,7 +33,11 @@ export default function Leadership() {
       <section className="py-20 bg-[#111] border-y border-white/5">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <img src={chairmanImg} alt="Andrew Conwell" className="w-full h-auto object-cover grayscale-[20%]" />
+            <img 
+  src={chairmanImg} 
+  alt="Andrew Conwell, Chairman and Owner of Edward Diamonds" 
+  className="w-full h-auto object-cover grayscale-[20%]" 
+/>
             <div>
               <span className="text-primary uppercase tracking-[0.2em] text-sm mb-4 block">Founder</span>
               <h2 className="font-serif text-4xl text-white mb-2">Andrew Conwell</h2>
