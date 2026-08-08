@@ -130,7 +130,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative group p-4 border border-primary/20">
               <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-700" />
-              <img src={chairmanImg} alt="Andrew Conwell, Chairman" className="w-full h-auto grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 relative z-10" />
+              <img src={chairmanImg} alt="Andrew Conwell, Chairman and Owner of Edward Diamonds" className="w-full h-auto grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 relative z-10" />
             </div>
             <div className="flex flex-col">
   <span className="text-primary uppercase tracking-[0.3em] text-sm mb-4">
