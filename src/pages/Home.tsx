@@ -75,7 +75,7 @@ export default function Home() {
           >
            A global diamond company transforming exceptional stones from the depths of the earth into timeless symbols of beauty and legacy.
           </motion.p>
-          
+         
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
