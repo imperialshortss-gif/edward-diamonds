@@ -1,9 +1,15 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { Link } from "wouter";
 
 export default function About() {
   return (
-    <Layout>
+    <>
+      <SEO
+        title="Our Heritage | Edward Diamonds"
+        description="Since 1987, Edward Diamonds has set the uncompromising standard for rarity, integrity, and masterful craftsmanship. Discover our history from Antwerp trading house to global diamond powerhouse."
+      />
+      <Layout>
       <section className="pt-40 pb-20 bg-[#111111] border-b border-primary/10">
         <div className="container mx-auto px-6 max-w-4xl text-center">
           <h1 className="font-serif text-5xl md:text-6xl text-white mb-6">Our Heritage</h1>
@@ -83,6 +89,7 @@ export default function About() {
           </div>
         </div>
       </section>
-    </Layout>
+      </Layout>
+    </>
   );
 }
