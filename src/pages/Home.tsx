@@ -1,4 +1,5 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
 import { Link } from "wouter";
 import { useRef } from "react";
@@ -27,7 +28,12 @@ export default function Home() {
   const heroOpacity = useTransform(scrollY, [0, 800], [1, 0]);
 
   return (
-    <Layout>
+    <>
+      <SEO
+        title="Edward Diamonds | Global Diamond Company"
+        description="Edward Diamonds is a global diamond company specializing in exceptional rough and polished diamonds, fine diamond jewelry, and the international diamond trade."
+      />
+      <Layout>
       {/* 1. HERO */}
       <section className="relative h-screen min-h-[800px] w-full overflow-hidden flex flex-col items-center justify-center pt-20">
         <motion.div 
@@ -343,6 +349,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-    </Layout>
+      </Layout>
+    </>
   );
 }
