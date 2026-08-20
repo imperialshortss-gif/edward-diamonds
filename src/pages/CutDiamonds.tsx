@@ -1,8 +1,8 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { Link } from "wouter";
 import cutPreview from "@/assets/cut-preview.jpg";
 import gal1 from "@/assets/gallery-1.jpg";
-
 export default function CutDiamonds() {
   const products = [
     { name: "Round Brilliant", color: "D", clarity: "FL", weight: "5.20 ct", img: cutPreview },
@@ -12,9 +12,13 @@ export default function CutDiamonds() {
     { name: "Princess Cut", color: "D", clarity: "VVS1", weight: "3.80 ct", img: cutPreview },
     { name: "Cushion Cut", color: "E", clarity: "IF", weight: "7.25 ct", img: gal1 },
   ];
-
   return (
-    <Layout>
+    <>
+      <SEO
+        title="Cut Diamonds | Edward Diamonds"
+        description="Explore Edward Diamonds' polished collection — flawlessly executed round brilliant, emerald, oval, pear, princess, and cushion cuts, GIA certified and crafted by master artisans in Antwerp."
+      />
+      <Layout>
       <section className="pt-40 pb-20 bg-[#111111] border-b border-primary/10">
         <div className="container mx-auto px-6 max-w-4xl text-center">
           <span className="text-primary uppercase tracking-[0.2em] text-sm mb-4 block">Master Craftsmanship</span>
@@ -24,7 +28,6 @@ export default function CutDiamonds() {
           </p>
         </div>
       </section>
-
       <section className="py-24 bg-[#0a0a0a]">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -61,6 +64,7 @@ export default function CutDiamonds() {
           </div>
         </div>
       </section>
-    </Layout>
+      </Layout>
+    </>
   );
 }
