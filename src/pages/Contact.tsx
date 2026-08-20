@@ -1,4 +1,5 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -41,7 +42,12 @@ export default function Contact() {
   }
 
   return (
-    <Layout>
+    <>
+      <SEO
+        title="Contact | Edward Diamonds"
+        description="Connect with Edward Diamonds' specialists for wholesale trading, investment portfolios, or bespoke commissions. Global headquarters in New York."
+      />
+      <Layout>
       <section className="pt-40 pb-20 bg-[#111111] border-b border-primary/10">
         <div className="container mx-auto px-6 max-w-4xl text-center">
           <h1 className="font-serif text-5xl md:text-6xl text-white mb-6">Private Inquiry</h1>
@@ -201,6 +207,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </Layout>
+      </Layout>
+    </>
   );
 }
