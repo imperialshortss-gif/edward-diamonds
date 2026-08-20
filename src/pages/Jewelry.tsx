@@ -1,4 +1,5 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { Link } from "wouter";
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -45,7 +46,12 @@ export default function Jewelry() {
     : collections.filter(c => c.category === activeFilter);
 
   return (
-    <Layout>
+    <>
+      <SEO
+        title="High Jewelry | Edward Diamonds"
+        description="Explore Edward Diamonds' bespoke high jewelry collection, featuring rare colored diamonds — including fancy vivid pink, blue, red, and yellow — set into timeless designs for discerning collectors."
+      />
+      <Layout>
       {/* Header */}
       <section className="pt-40 pb-20 bg-[#111111] border-b border-primary/10">
         <div className="container mx-auto px-6 max-w-4xl text-center">
@@ -164,6 +170,7 @@ export default function Jewelry() {
           </div>
         </div>
       </section>
-    </Layout>
+      </Layout>
+    </>
   );
 }
